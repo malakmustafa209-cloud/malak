@@ -1515,7 +1515,34 @@ body {
     font-weight:bold;
 }
 
+@media (max-width: 48px) {
 
+  body{
+    overflow-x: hidden;
+  }
+
+  .container{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .box,
+  .card,
+  .item{
+    width: 100% !important;
+    margin: 10px 0;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1,h2,h3{
+    font-size: 90%;
+  }
+
+}
 
 
 
