@@ -1520,40 +1520,4 @@ body {
 
 
 
-/* --- إعدادات التجاوب مع شاشة التليفون --- */
-@media screen and (max-width: 768px) {
-    .header-container {
-        flex-direction: column; /* جعل اللوجو والأيقونات فوق بعضهم في التليفون */
-        align-items: center;
-        padding: 10px;
-    }
-    .header-icons {
-        margin-bottom: 10px; /* مسافة بين الأيقونات واللوجو */
-    }
-    .nav-menu {
-        display: flex;
-        gap: 10px; /* تقليل المسافات بين الروابط لتناسب الشاشة */
-        flex-wrap: wrap; /* السماح للروابط بالنزول لسطر جديد إذا لم تكفِ المساحة */
-        justify-content: center;
-    }
-}
-
-
-
-
-
-
-
-
-/* تأكدي من هذه الإعدادات في ملف style.css */
-.nav-menu a {
-    padding: 0 10px; /* تقليل الحشو حول الروابط */
-    font-size: 14px; /* تصغير الخط قليلاً ليناسب التليفون */
-    white-space: nowrap; /* منع الكلمة من الانقسام */
-}
-
-
-
-
-
 
